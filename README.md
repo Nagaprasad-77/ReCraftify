@@ -1,7 +1,6 @@
-
 # ReCraftify 🛍️
 
-**ReCraftify** is a full-stack eCommerce web application built with Django. It provides a modern platform for managing and showcasing handcrafted or curated products. The application supports both vendor and admin roles with dynamic product management, secure user authentication, and an intuitive store front interface.
+**ReCraftify** is a full-stack online classified platform built with Django. It provides a modern platform for managing and showcasing handcrafted or curated products. The application supports both vendor and admin roles with dynamic product management, secure user authentication, and an intuitive store front interface.
 
 ---
 
@@ -31,17 +30,19 @@
 
 ```
 ReCraftify/
-├── dashboard/         # Admin dashboards and controls
-├── media/             # Uploaded user/vendor media
-├── member/            # Customer and user-related features
-├── scrapify/          # Project settings, URLs, WSGI, ASGI
-├── static/            # Static assets (CSS, JS, etc.)
-├── store/             # Core store logic (models, views, products)
-├── store_front/       # Public-facing store pages
-├── vendor/            # Vendor-specific views and tools
-├── manage.py          # Django’s command-line utility
-├── requirements.txt   # Python dependencies
-└── scrapify_db.sqlite3 # Development database
+├── assets/
+│   └── screenshots/        # Project screenshots for README
+├── dashboard/              # Admin dashboards and controls
+├── media/                  # Uploaded user/vendor media
+├── member/                 # Customer and user-related features
+├── scrapify/               # Project settings, URLs, WSGI, ASGI
+├── static/                 # Static assets (CSS, JS, etc.)
+├── store/                  # Core store logic (models, views, products)
+├── store_front/            # Public-facing store pages
+├── vendor/                 # Vendor-specific views and tools
+├── manage.py               # Django’s command-line utility
+├── requirements.txt        # Python dependencies
+└── scrapify_db.sqlite3     # Development database
 ```
 
 ---
@@ -51,7 +52,7 @@ ReCraftify/
 ### ✅ 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ReCraftify.git
+git clone https://github.com/Nagaprasad-77/ReCraftify.git
 cd ReCraftify
 ```
 
@@ -89,8 +90,8 @@ Now open your browser and go to:
 ## 🧪 Sample Admin Access
 
 ```
-Username: admin
-Password: admin123
+Username: admin@gmail.com  
+Password: Admin@12
 ```
 
 > ⚠️ Replace with your actual superuser credentials or create one:
@@ -103,7 +104,41 @@ python manage.py createsuperuser
 
 ## 📸 Screenshots
 
-> *(Add screenshots of login page, dashboard, product listing, etc. here for better presentation)*
+### 🏬 Storefront Page  
+![Storefront](assets/screenshots/storefront.jpg)
+
+### 📚 Sidebar Navigation  
+![Sidebar](assets/screenshots/sidebar.jpg)
+
+### 📄 Product Detail Page  
+![Product Detail](assets/screenshots/product-detail.jpg)
+
+### 🔐 Registration & Login  
+![Auth](assets/screenshots/auth.jpg)
+
+### 🔍 Search & Filter  
+![Search Filter](assets/screenshots/search-filter.jpg)
+
+### 🧾 Product Listings Page  
+![Product Listing](assets/screenshots/product-listing.jpg)
+
+### 🛒 Shopping Cart Page  
+![Cart](assets/screenshots/cart.jpg)
+
+### 💳 Billing Section  
+![Billing](assets/screenshots/billing.jpg)
+
+### ✅ Successful Payment & Order  
+![Payment Success](assets/screenshots/payment-success.jpg)
+
+### 📞 Footer Section  
+![Footer](assets/screenshots/footer.jpg)
+
+### 🧑‍💼 Vendor Dashboard  
+![Vendor Dashboard](assets/screenshots/vendor-dashboard.jpg)
+
+### 🛠️ Admin Dashboard  
+![Admin Dashboard](assets/screenshots/admin-dashboard.jpg)
 
 ---
 
@@ -121,7 +156,7 @@ python manage.py createsuperuser
 
 **Nagaprasad Devadiga**  
 📍 India  
-🔗 [GitHub Profile](https://github.com/YOUR_USERNAME)
+🔗 [GitHub Profile](https://github.com/Nagaprasad-77)
 
 ---
 
